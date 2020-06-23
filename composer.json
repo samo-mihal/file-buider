@@ -1,0 +1,23 @@
+{
+	"name": "samuel-mihal/file-builder",
+	"type": "php",
+	"description": "Helper for editing existing file.",
+	"version": "0.0.1",
+	"license": "GPL-2.0+",
+	"require": {},
+	"replace": {
+		"samuel-mihal/file-builder": "self.version"
+	},
+	"authors": [
+		{
+			"name": "Samuel Mihal",
+			"email": "samuel.mihal@digitalwerk.agency",
+			"homepage": "https://digitalwerk.agency/"
+		}
+	],
+    "autoload": {
+        "psr-4": {
+            "Digitalwerk\\FileBuilder\\": "Classes"
+        }
+    }
+}
